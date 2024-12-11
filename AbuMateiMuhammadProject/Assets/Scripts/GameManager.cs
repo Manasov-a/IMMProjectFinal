@@ -124,10 +124,10 @@ public class GameManager : MonoBehaviour
         }
 
         // Increase difficulty each new level
-        spawnRate *= 0.8f;    // Spawn faster
-        asteroidSpeed *= 1.2f; // Asteroids move faster
+        spawnRate *= 0.5f;
+        asteroidSpeed *= 1.4f;
     }
-
+     
     public void GameOver()
     {
         isGameActive = false;

@@ -8,6 +8,8 @@ TagManager:
   - Bullet
   - Undefined
   - Asteroid
+  - FxTemporaire
+  - Projectile
   layers:
   - Default
   - TransparentFX
